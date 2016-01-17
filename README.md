@@ -4,7 +4,7 @@ Google Universal Analytics for Bots
 1. Create a new ‘bots only’ Web Property in your Google Analytics account using Universal Analytics. Remember to grab your new Web Property ID (i.e. UA-XXXXXX-YY)
 2. Unzip and place the ‘/ua-searchbots/’ folder on your website (example: www.domain.com/ua-searchbots/)
 3. Copy the UA for Search Bots Tracking Code found in sample.php and place it in your PHP source code (example: in your common ‘header’ include file)
-4. Edit the UA for Search Bots Tracking code for the following:\n
+4. Edit the UA for Search Bots Tracking code for the following:\r
 -Set the $UA_SB_ACCOUNT_ID variable to the new GA Web Property ID.
   -Set the $UA_SB_PATH to the location of the ‘/ua-searchbots/’ folder. (Depending on your PHP setup, you may or may not run into issues with setting the location value. Depends on your include_path setting)
 
